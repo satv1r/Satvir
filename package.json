@@ -1,0 +1,22 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "My Personal Site",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/356Sandhu/Personal-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/356Sandhu/Personal-Site/issues"
+  },
+  "homepage": "https://github.com/356Sandhu/Personal-Site#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

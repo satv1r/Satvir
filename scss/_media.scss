@@ -1,0 +1,157 @@
+@media (max-width: 800px) {
+  header {
+    height: 85vh;
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      .text {
+        h1 {
+          font-size: 12rem;
+        }
+      }
+      model-viewer {
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px) {
+  header {
+    height: 85vh;
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      .text {
+        h1 {
+          font-size: 14rem;
+        }
+      }
+      model-viewer {
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media (max-height: 800px) and (max-width: 1100px) {
+  header {
+    .container {
+      flex-direction: row;
+      align-content: space-around;
+      justify-content: space-around;
+      .text {
+        h1 {
+          font-size: 8rem;
+        }
+      }
+      model-viewer {
+        width: 350px;
+        height: 350px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 75vh;
+    .container {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: center;
+      align-items: center;
+      .text {
+        h1 {
+          font-size: 6rem;
+        }
+        .subtext {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+      model-viewer {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) and (max-height: 450px) {
+  header {
+    .container {
+      flex-direction: row;
+      align-content: space-around;
+      justify-content: space-around;
+      .text {
+        h1 {
+          font-size: 4rem;
+        }
+      }
+      model-viewer {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  header {
+    height: 70vh;
+    .container {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: center;
+      align-items: center;
+      .text {
+        h1 {
+          font-size: 4rem;
+        }
+        .subtext {
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+      model-viewer {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+
+// @media (max-width: 1100px) and (max-height: 800px) {
+//   header {
+//     height: 70vh;
+//     .container {
+//       flex-direction: column;
+//       justify-content: space-evenly;
+//       align-content: center;
+//       align-items: center;
+//       .text {
+//         h1 {
+//           font-size: 4rem;
+//         }
+//         .subtext {
+//           p {
+//             font-size: 1rem;
+//           }
+//         }
+//       }
+//       model-viewer {
+//         width: 200px;
+//         height: 200px;
+//       }
+//     }
+//   }
+// }
